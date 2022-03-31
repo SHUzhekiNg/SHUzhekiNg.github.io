@@ -2369,7 +2369,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #dee2e6; }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -9755,14 +9755,14 @@ a.read:hover {
 
 .heading h3 {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 56px;
   color: var(--title-color);
-  font-weight: 600; }
+  font-weight: 700; }
 
 .heading p {
   color: var(--text-color);
   font-size: 16px;
-  line-height: 24px; }
+  line-height: 20px; }
 
 h4.sub-title {
   font-size: 18px;
@@ -10430,7 +10430,7 @@ h4.sub-title {
   -ms-transition: 0.3s ease-in; }
 
 .w3l-main-banner .banner-view {
-  background: url(../images/1.jpg) no-repeat right;
+  background: url(../images/5.jpg) no-repeat right;
   background-size: cover;
   min-height: 100vh;
   position: relative;
@@ -10958,7 +10958,7 @@ body:after {
     font-size: 12px; } }
 
 .services-12 .form-12-content {
-  background: url("../images/2.jpg") no-repeat center;
+  background: url("../images/6.jpg") no-repeat center;
   background-size: cover;
   padding: 5rem 0px;
   background-attachment: fixed;
@@ -11002,7 +11002,7 @@ body:after {
 
 .services-12 .grid-column-2 {
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: start;
   grid-column-gap: 90px; }
 
 .services-12 .tagline {
