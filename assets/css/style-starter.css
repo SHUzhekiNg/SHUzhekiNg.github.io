@@ -9838,7 +9838,7 @@ h4.sub-title {
 .w3l-bootstrap-header a.navbar-brand {
   color: var(--white-color);
   font-weight: bold;
-  font-size: 36px;
+  font-size: 28px;
   padding: 0;
   font-family: 'Nunito', sans-serif; }
 
@@ -10406,7 +10406,7 @@ h4.sub-title {
 
 .w3l-main-banner h3.banner-text {
   font-weight: 400;
-  font-size: 56px;
+  font-size: 48px;
   line-height: 65px;
   color: #fff; }
 
