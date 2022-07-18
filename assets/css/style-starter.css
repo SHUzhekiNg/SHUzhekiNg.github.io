@@ -8,6 +8,13 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face{
+  font-family:"iconfont";
+  src:url("../fonts/iconfont/iconfont.eot");
+  src:url("../fonts/iconfont/iconfont.eot#iefix")format("embedded-opentype"),url("../fonts/iconfont/iconfont.woff")format("woff"),url("../fonts/iconfont/iconfont.ttf")format("truetype"),url("../fonts/iconfont/iconfont.svg#iconfont")format("svg");
+  font-display:swap;
+}
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -743,7 +750,9 @@
   content: ""; }
 
 .fa-google-plus:before {
-  content: "\e8c9"; }
+  content: "\e900";
+  font-family: 'iconfont';
+}
 
 .fa-money:before {
   content: ""; }
@@ -11489,7 +11498,8 @@ body:after {
     grid-gap: 40px; } }
 
 .w3l-footer-29-main .main-social-footer-29 a span.fa {
-  line-height: 35px; }
+  line-height: 35px; 
+}
 
 @media (max-width: 667px) {
   .w3l-footer-29-main .footer-29 {
