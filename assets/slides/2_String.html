@@ -20,7 +20,7 @@
 </style>
 
 		<meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="Tv5YQ6yvr2+R0556DRG0zGzmlXAoj8EGSW4wbUpVk47z3F8eBG4P2qNO9xaq8ioXKU24x+nHE+t/dZjMlOk97A==" />
+<meta name="csrf-token" content="NFMYXzu2Ccs5AwqvfDmoZy+7+PsoP+XdsEN18N5u2T9yoy6VeS1olmHCMppPCiqpDyFWqoVe5OX50ptCLZLKLQ==" />
 		<style id="user-css-output" type="text/css"></style>
 	</head>
 	<body class="reveal-viewport theme-font-montserrat theme-color-silver-blue"">
@@ -102,7 +102,7 @@ int main(){
 }</code></pre></div></div>
 
 
-</section></section><section data-id="27bd90ab1b9e94deec6559b4e5b0f5d6">
+</section></section><section class="stack" data-id="6b6073fd0b84a8ec3a1e71a8adb3d91b"><section data-id="27bd90ab1b9e94deec6559b4e5b0f5d6">
 <div class="sl-block" data-block-type="line" data-name="line-d0a280" style="width: auto; height: auto; left: 0px; top: 137px;" data-block-id="8d6a12a1c96966fe040f00dc912be44f"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="1280" data-line-y2="0" data-line-color="#1c4587" data-line-start-type="none" data-line-end-type="none" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1280" height="1" viewbox="0 0 1280 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="0" x2="1280" y2="0"></line><line class="line-element" stroke="#1c4587" stroke-width="2" x1="0" y1="0" x2="1280" y2="0"></line></svg></div></div>
 
 
@@ -132,7 +132,33 @@ int main() {
 // 函数定义
 int max(int num1, int num2) {
     return num1 &gt; num2 ? num1 : num2;
-}</code></pre></div></div></section><section data-id="37dbcefdc52967e576e98716a7ff4b38">
+}</code></pre></div></div></section><section data-id="1324b415d792320c183b7f2d623282b5">
+<div class="sl-block" data-block-type="line" data-name="line-d0a280" style="width: auto; height: auto; left: 0px; top: 137px;" data-block-id="0c9e56e8653493096732480393324efa"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="1280" data-line-y2="0" data-line-color="#1c4587" data-line-start-type="none" data-line-end-type="none" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1280" height="1" viewbox="0 0 1280 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="0" x2="1280" y2="0"></line><line class="line-element" stroke="#1c4587" stroke-width="2" x1="0" y1="0" x2="1280" y2="0"></line></svg></div></div>
+
+
+
+<div class="sl-block" data-block-type="text" data-name="text-1dc89b" style="height: auto; width: 680.53px; left: 59.162px; top: 32px;" data-block-id="4492f0211b497e87df802ee967a9ac28"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(17, 17, 17);">
+<h2 style="text-align:left"><span style="font-size:1.0em">2.7 函数与Lambda表达式</span></h2>
+</div></div>
+<div class="sl-block" data-block-type="code" data-name="code-375647" style="width: 1140.84px; height: 714.797px; left: 59.16px; top: 169.659px;" data-block-id="7bd7b3908e7ca944d86d48c6547a25a6"><div class="sl-block-content notranslate" data-highlight-theme="obsidian" data-code-frame="none" style="z-index: 12;"><pre class="cpp" style="font-size: 23px; line-height: 28px;"><code data-line-numbers="">#include &lt;iostream&gt;
+#include &lt;algorithm&gt;
+using namespace std;
+struct Node{
+    int id;
+    bool sex;
+};
+
+bool cmp1(Node x, Node y){
+    return x.id &lt; y.id;
+}
+
+int main() {
+    Node stu[1000];
+    sort(stu, stu+1000, cmp1);
+    sort(stu, stu+1000, [](Node a, Node b) -&gt; bool { return a.id &lt; b.id; });
+    
+    return 0;
+}</code></pre></div></div></section></section><section data-id="37dbcefdc52967e576e98716a7ff4b38">
 <div class="sl-block" data-block-type="line" data-name="line-d0a280" style="width: auto; height: auto; left: 0px; top: 118.862px;" data-block-id="a6aa9c3dba88a9695dd6a2797bbbf54d"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="1280" data-line-y2="0" data-line-color="#1c4587" data-line-start-type="none" data-line-end-type="none" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1280" height="1" viewbox="0 0 1280 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="0" x2="1280" y2="0"></line><line class="line-element" stroke="#1c4587" stroke-width="2" x1="0" y1="0" x2="1280" y2="0"></line></svg></div></div>
 
 
@@ -205,7 +231,7 @@ int max(int num1, int num2) {
 
 		
 <script>
-	var SLConfig = {"current_user":{"id":2107306,"username":"leozheng","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/d01c4e50c1d0f9b4081c3216f41ba9a8?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","account_type":"default","team_id":null,"settings":{"id":38940537,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null,"editor_grid":true,"editor_grid_on_top":false,"editor_snap":true,"editor_fixed_notes":false,"developer_mode":false,"speaker_layout":null,"speaker_theme":null,"phone_number":null,"phone_country_code":null,"media_sources":null,"export_controls":null,"export_slide_number":null,"export_slide_notes":null,"export_separate_fragments":null,"auto_animate_tutorial_completed":null,"profile_sorting":"created","profile_layout":"grid"},"email":"zhenglicheng@yeah.net","notify_on_receipt":true,"billing_address":null,"billing_vat_id":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":null,"storage_used":2069921,"storage_limit":262144000,"image_upload_limit":10485760,"video_upload_limit":104857600},"deck":{"id":2421212,"slug":"1_c","title":"2_数组与字符串/函数","description":"","width":1280,"height":960,"margin":0.05,"visibility":"all","published_at":"2022-06-26T03:28:37.120Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/5c62a65d06a18c4261962d46ff0b514b/thumb.jpg?1657800345","view_count":0,"user":{"id":2107306,"username":"leozheng","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/d01c4e50c1d0f9b4081c3216f41ba9a8?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","account_type":"default","team_id":null,"settings":{"id":38940537,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"silver-blue","auto_slide_interval":0,"comments_enabled":false,"forking_enabled":true,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":false,"slide_count":8,"rtl":false,"version":2,"collaborative":false,"deck_user_editor_limit":null,"data_updated_at":1658116503630,"font_typekit":null,"font_google":null,"time_limit":null,"navigation_mode":"default","upsizing_enabled":true,"notes":{}},"user":{"id":2107306,"username":"leozheng","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/d01c4e50c1d0f9b4081c3216f41ba9a8?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","account_type":"default","team_id":null,"settings":{"id":38940537,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}}};
+	var SLConfig = {"current_user":{"id":2107306,"username":"leozheng","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/d01c4e50c1d0f9b4081c3216f41ba9a8?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","account_type":"default","team_id":null,"settings":{"id":38940537,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null,"editor_grid":true,"editor_grid_on_top":false,"editor_snap":true,"editor_fixed_notes":false,"developer_mode":false,"speaker_layout":null,"speaker_theme":null,"phone_number":null,"phone_country_code":null,"media_sources":null,"export_controls":null,"export_slide_number":null,"export_slide_notes":null,"export_separate_fragments":null,"auto_animate_tutorial_completed":null,"profile_sorting":"created","profile_layout":"grid"},"email":"zhenglicheng@yeah.net","notify_on_receipt":true,"billing_address":null,"billing_vat_id":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":null,"storage_used":2069921,"storage_limit":262144000,"image_upload_limit":10485760,"video_upload_limit":104857600},"deck":{"id":2421212,"slug":"1_c","title":"2_数组与字符串/函数","description":"","width":1280,"height":960,"margin":0.05,"visibility":"all","published_at":"2022-06-26T03:28:37.120Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/5c62a65d06a18c4261962d46ff0b514b/thumb.jpg?1657800345","view_count":0,"user":{"id":2107306,"username":"leozheng","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/d01c4e50c1d0f9b4081c3216f41ba9a8?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","account_type":"default","team_id":null,"settings":{"id":38940537,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"silver-blue","auto_slide_interval":0,"comments_enabled":false,"forking_enabled":true,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":false,"slide_count":10,"rtl":false,"version":2,"collaborative":false,"deck_user_editor_limit":null,"data_updated_at":1658288353080,"font_typekit":null,"font_google":null,"time_limit":null,"navigation_mode":"default","upsizing_enabled":true,"notes":{}},"user":{"id":2107306,"username":"leozheng","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/d01c4e50c1d0f9b4081c3216f41ba9a8?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","account_type":"default","team_id":null,"settings":{"id":38940537,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}}};
 </script>
 
 		<script>
