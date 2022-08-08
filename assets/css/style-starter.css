@@ -2459,7 +2459,7 @@ a {
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #096e87;
+    color: #5cb8c3;
     text-decoration: underline; }
 
 a:not([href]) {
